@@ -207,6 +207,7 @@ section {
   padding: 0;
   box-sizing: border-box;
 }
+
 html,body{
   display: grid;
   height: 100%;
@@ -214,10 +215,12 @@ html,body{
   place-items: center;
   background: linear-gradient(315deg, #ffffff 0%, #d7e1ec 74%);
 }
+
 .wrapper{
   display: inline-flex;
   margin-top: 100px;
 }
+
 .wrapper .icon{
   margin: 0 10px auto;
   text-align: center;
@@ -230,6 +233,7 @@ html,body{
   z-index: 2;
   transition: 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
+
 .wrapper .icon span{
   display: block;
   height: 60px;
@@ -241,10 +245,12 @@ html,body{
   box-shadow: 0px 10px 10px rgba(0,0,0,0.1);
   transition: 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
+
 .wrapper .icon span i{
   line-height: 60px;
   font-size: 25px;
 }
+
 .wrapper .icon .tooltip{
   position: absolute;
   top: 0;
@@ -260,11 +266,13 @@ html,body{
   box-shadow: 0px 10px 10px rgba(0,0,0,0.1);
   transition: 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
+
 .wrapper .icon:hover .tooltip{
   top: -70px;
   opacity: 1;
   pointer-events: auto;
 }
+
 .icon .tooltip:before{
   position: absolute;
   content: "";
@@ -276,33 +284,40 @@ html,body{
   transform: translateX(-50%) rotate(45deg);
   transition: 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
+
 .wrapper .icon:hover span{
   color: #fff;
 }
+
 .wrapper .icon:hover span,
 .wrapper .icon:hover .tooltip{
   text-shadow: 0px -1px 0px rgba(0,0,0,0.4);
 }
+
 .wrapper .facebook:hover span,
 .wrapper .facebook:hover .tooltip,
 .wrapper .facebook:hover .tooltip:before{
   background: #3B5999;
 }
+
 .wrapper .twitter:hover span,
 .wrapper .twitter:hover .tooltip,
 .wrapper .twitter:hover .tooltip:before{
   background: #46C1F6;
 }
+
 .wrapper .instagram:hover span,
 .wrapper .instagram:hover .tooltip,
 .wrapper .instagram:hover .tooltip:before{
   background: #e1306c;
 }
+
 .wrapper .github:hover span,
 .wrapper .github:hover .tooltip,
 .wrapper .github:hover .tooltip:before{
   background: #333;
 }
+
 .wrapper .youtube:hover span,
 .wrapper .youtube:hover .tooltip,
 .wrapper .youtube:hover .tooltip:before{
