@@ -225,7 +225,7 @@ html,body{
 }
 
 .wrapper .icon{
-  margin: 0 10px auto;
+  margin: 0 5px auto;
   text-align: center;
   cursor: pointer;
   display: flex;
